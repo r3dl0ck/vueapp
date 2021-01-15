@@ -2,7 +2,7 @@ pipeline {
 
   environment {
     imagename = "devopstestaccount/gui"
-    registryCredential = 'devopstestaccount-id'
+    registryCredential = 'dockerhub-id'
     dockerImage = ''
   }
 
